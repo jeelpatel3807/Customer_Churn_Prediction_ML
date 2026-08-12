@@ -6,19 +6,31 @@
 [![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-An end-to-end Machine Learning classification project designed to predict customer churn in the telecommunications sector. Utilizing a custom Flask-based dashboard, The project uses machine learning to predict whether a telecom customer is likely to leave.
+A machine learning project that predicts whether a telecom customer is likely to churn. The project compares Logistic Regression and Decision Tree models and provides a Flask web interface for making predictions from customer information.
+
+The data is preprocessed using numeric conversion, median imputation, and label encoding before training the models.
 
 ---
 
 ## Features
 
-- **End-to-End Classification Pipeline**: Incorporates comparative training between **Logistic Regression** (deployed for production inference) and **Decision Tree** models to establish high-accuracy baseline performance.
+- **Model Comparison**: Trains Logistic Regression and Decision Tree classifiers and compares their Accuracy and F1 scores.
 - **Automated Data Preprocessing**: Robust data cleaning pipeline including type coercion (converting total charges to numeric data) and median imputation to handle missing data.
 - **Robust Feature Encoding**: Implements dynamic label encoders with safe fallback logic, allowing the production server to handle unseen categories gracefully during inference.
 - **Rich Model Visualizations**: Automated generation of performance indicators including a Confusion Matrix and a Feature Importance plot to identify key retention drivers.
-- **Responsive Flask Interface**: An interactive, user-friendly web interface allowing real-time parameter entry and predictive outputs with clear visual churn indicators.
+- **Flask Web Interface**: Allows users to enter customer information and receive a Churn or No Churn prediction.
 
 ---
+## Model Results
+
+The project compares Logistic Regression and Decision Tree classifiers using Accuracy and F1 Score on the test set.
+
+| Model | Accuracy | F1 Score |
+|---|---:|---:|
+| Logistic Regression | 82.02% | 58.54% |
+| Decision Tree | 79.13% | 54.77% |
+
+Logistic Regression performed better on both metrics in this experiment and is used by the Flask application for predictions.
 
 ### Model Evaluation & Analysis
 | Confusion Matrix | Feature Importance |
