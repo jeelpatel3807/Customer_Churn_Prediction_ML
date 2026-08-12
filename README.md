@@ -6,7 +6,7 @@
 [![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-An end-to-end Machine Learning classification project designed to predict customer churn in the telecommunications sector. Utilizing a custom Flask-based dashboard, this tool empowers customer retention teams to analyze risk profiles and proactively target at-risk subscribers.
+An end-to-end Machine Learning classification project designed to predict customer churn in the telecommunications sector. Utilizing a custom Flask-based dashboard, The project uses machine learning to predict whether a telecom customer is likely to leave.
 
 ---
 
@@ -19,19 +19,6 @@ An end-to-end Machine Learning classification project designed to predict custom
 - **Responsive Flask Interface**: An interactive, user-friendly web interface allowing real-time parameter entry and predictive outputs with clear visual churn indicators.
 
 ---
-
-## Demo
-
-- **Live Application Link**: [Explore Live Demo](https://your-live-demo-link.herokuapp.com) *(Placeholder for deployment url)*
-- **Project Walkthrough Video**: [Watch Demo Video](https://your-video-link.youtube.com) *(Placeholder for video recording)*
-
----
-
-## Screenshots
-
-### Web Application UI
-![Telecom Customer Churn Predictor Dashboard](https://via.placeholder.com/800x450.png?text=Interactive+Flask+Web+Dashboard+UI)
-*Placeholder for the primary application dashboard interface.*
 
 ### Model Evaluation & Analysis
 | Confusion Matrix | Feature Importance |
