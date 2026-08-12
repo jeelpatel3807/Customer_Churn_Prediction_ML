@@ -32,6 +32,16 @@ The project compares Logistic Regression and Decision Tree classifiers using Acc
 
 Logistic Regression performed better on both metrics in this experiment and is used by the Flask application for predictions.
 
+## Screenshots
+
+### Churn Prediction
+
+![Customer Churn Prediction](screenshots/Churn.png)
+
+### No Churn Prediction
+
+![Customer No Churn Prediction](screenshots/No_Churn.png)
+
 ### Model Evaluation & Analysis
 | Confusion Matrix | Feature Importance |
 | :---: | :---: |
