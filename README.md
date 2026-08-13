@@ -36,11 +36,11 @@ Logistic Regression performed better on both metrics in this experiment and is u
 
 ### Churn Prediction
 
-![Customer Churn Prediction](screenshots/Churn.png)
+![Customer Churn Prediction](Screenshots/Churn.png)
 
 ### No Churn Prediction
 
-![Customer No Churn Prediction](screenshots/No_Churn.png)
+![Customer No Churn Prediction](Screenshots/No_Churn.png)
 
 ### Model Evaluation & Analysis
 | Confusion Matrix | Feature Importance |
